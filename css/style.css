@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    background-color: #F5F5DC;
+}
+
+
+.bor{
+    border: 1px solid rgb(158, 157, 157);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.pad-edit{
+    padding: 10px 30px 10px 30px;
+}
+
+.rak-edit{
+    padding: 0px 30px 30px 30px;
+}
+
+.btn-custom{
+    background-color: #FFB000;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    height: auto;
+    cursor: pointer;
+    width: auto;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    width: 100px;
+}
+
+.btn-custom:hover{
+    background-color: #F5F5DC;
+    color: #191717;
+    border: 1px solid black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-tambah{
+    background-color: #FFB000;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn-tambah:hover{
+    border: 1px solid black;
+    color: #191717;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.btn-cari{
+    background-color: #FFB000;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-cari:hover{
+    border: 1px solid black;
+    color: #191717;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.p-edit{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 10px;
+    color: #000000b0;
+}
+
+.btn-secondary:hover{
+    background-color: #F5F5DC;
+    border: 1px solid black;
+    color: #191717;
+    font-weight: 600;
+    font-size: 16px;
+}
